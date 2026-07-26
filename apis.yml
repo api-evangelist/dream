@@ -1,8 +1,16 @@
 aid: dream
 name: Dream
-description: 'Dream is a company surfaced as a portfolio company of bain-capital-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Dream (Dream Security / Dream Group) is an AI company for national cybersecurity and
+  sovereign AI, founded in 2023 by Shalev Hulio, former Austrian Chancellor Sebastian Kurz, and Gil
+  Dolev, with offices in Tel Aviv, Vienna, and Abu Dhabi. Dream builds a full sovereign AI stack that
+  nations own, control, and operate with zero foreign reliance, delivered on-premises and air-gapped
+  with no foreign telemetry. Its platform spans three products: Atlas, a national AI platform that
+  turns government data into knowledge and decisions across intelligence, finance, health, and supply
+  chain; Sphere, a unified cyber-defense system protecting government and critical infrastructure
+  against nation-state threats; and Hero, an autonomous multi-agent solution for vulnerability
+  discovery and patching. Backed by Bain Capital Ventures and others at a multibillion-dollar
+  valuation, Dream has no public developer API surface; this profile captures its identity and
+  domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/dream/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,30 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/6a1324866930e66fe78a27d6/6a324f843f505cd83850fcc0_og.jpg
 tags:
 - Company
 - Security
+- Cybersecurity
+- Artificial Intelligence
+- Sovereign AI
+- National Security
+- Critical Infrastructure
+- GovTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dream-domain-security.yml
 - type: Website
   url: https://dreamgroup.com/
+- type: About
+  url: https://dreamgroup.com/about
+- type: Blog
+  url: https://dreamgroup.com/research-and-news
+- type: PrivacyPolicy
+  url: https://dreamgroup.com/privacy-notice
+- type: Careers
+  url: https://dreamgroup.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/dreamsecurity/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
