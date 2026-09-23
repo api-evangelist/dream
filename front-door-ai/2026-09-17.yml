@@ -1,0 +1,25 @@
+# Front Door AI Index — dream — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: dream
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: dreamgroup.com
+  final_host: dreamgroup.com
+  ownership: own
+  owner: dream
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 18
+  host_score: 18
+  density: 27.19
+  words: 662
+  tiers:
+    agentic: 0
+    core: 18
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 18
